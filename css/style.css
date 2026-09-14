@@ -2665,3 +2665,58 @@ footer .bottom-footer p a {
   background: #000;
   border-color: #000;
 }
+
+.form-message {
+    display: none;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 18px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.form-message strong {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.form-message p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.success-message {
+    background: #f0f9f1;
+    border: 1px solid #b7dfbb;
+    color: #236b2b;
+}
+
+.error-message {
+    background: #fff4f4;
+    border: 1px solid #e0b4b4;
+    color: #a52a2a;
+}
+
+.success-icon,
+.error-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.success-icon {
+    background: #2e8b3c;
+    color: #fff;
+}
+
+.error-icon {
+    background: #c0392b;
+    color: #fff;
+}
